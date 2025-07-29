@@ -1,0 +1,42 @@
+graph TD
+    A[Data Input Layer] --> B[Market Data Processing]
+    B --> C[Slippage Analysis Engine]
+    C --> D[Model Fitting Module]
+    D --> E[Model Comparison & Selection]
+    E --> F[Optimal Execution Algorithm]
+    F --> G[Visualization & Reporting]
+    
+    A1[ZIP Files<br/>CRWV.zip, FROG.zip, SOUN.zip] --> A
+    A2[CSV Market Data<br/>Bid/Ask Prices & Sizes] --> A
+    
+    B1[Data Validation] --> B
+    B2[Market State Construction] --> B
+    B3[Mid-Price Calculation] --> B
+    
+    C1[Order Size Simulation<br/>100, 500, 1k, 2k, 5k shares] --> C
+    C2[Liquidity Walk Algorithm] --> C
+    C3[Slippage Calculation] --> C
+    
+    D1[Linear Model: βx] --> D
+    D2[Square Root: α√x] --> D
+    D3[Power Law: cx^γ] --> D
+    D4[RMSE Optimization] --> D
+    
+    E1[Cross-Validation] --> E
+    E2[Statistical Significance] --> E
+    E3[Model Selection Criteria] --> E
+    
+    F1[Greedy Algorithm] --> F
+    F2[Marginal Cost Equalization] --> F
+    F3[Convex Optimization] --> F
+    F4[Intraday Pattern Modeling] --> F
+    
+    G1[Model Comparison Plots] --> G
+    G2[Execution Visualization] --> G
+    G3[Performance Metrics] --> G
+    G4[Final Report Generation] --> G
+    
+    style A fill:#e1f5fe
+    style C fill:#f3e5f5
+    style F fill:#e8f5e8
+    style G fill:#fff3e0
