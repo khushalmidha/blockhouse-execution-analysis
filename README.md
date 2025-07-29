@@ -1,4 +1,4 @@
-# Optimal Execution System - Blockhouse Assignment
+# blockhouse-execution-analysis - Blockhouse Assignment
 
 ## 🎯 Project Overview
 
@@ -24,14 +24,12 @@ This project implements a comprehensive **optimal trade execution system** that 
 ## 📁 Project Structure
 
 ```
-optimal-execution-system/
-├── main_implementation.py    # Complete implementation
+blockhouse-execution-analysis/
+├── main_implementation.ipynb    # Complete implementation
 ├── README.md                # This file
 ├── requirements.txt         # Dependencies
-└── data/                   # Market data files
-    ├── CRWV.zip
-    ├── FROG.zip
-    └── SOUN.zip
+└── execution_architecture.mermaid    # architecture diagram
+└── requirements_txt.txt   # setup requirements
 ```
 
 ## 🧮 Mathematical Framework
